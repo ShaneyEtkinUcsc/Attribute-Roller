@@ -46,6 +46,7 @@ player02.rollAttributes();
 player02.printPlayer();
 
 //Fisher-Yates thingy
+//https://dev.to/codebubb/how-to-shuffle-an-array-in-javascript-2ikj
 function shuffleArray(targetArray) {
     let shuffled = Array.from(targetArray);
     for (let i = shuffled.length -1; i > 0; i--) {
